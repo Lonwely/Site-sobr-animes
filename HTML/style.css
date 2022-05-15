@@ -1,0 +1,184 @@
+.menu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(42, 2, 80);
+    background: linear-gradient(48deg, #000000 15%, #0859a5 60%, #810752 75%);
+    animation: colors 10s ease-in-out infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.shounen {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(42, 2, 80);
+    background: linear-gradient(48deg, rgb(6, 0, 7) 15%, #770303 60%, #1808a5 75%);
+    animation: colors 10s ease-in-out infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.shoujo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(42, 2, 80);
+    background: linear-gradient(48deg, #000000 18%, #a008a5 50%, #c00b0b 75%);
+    animation: colors 10s ease-in-out infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.seinen {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(42, 2, 80);
+    background: linear-gradient(48deg, #000000 15%, #0859a5 60%, #4d0257 75%);
+    animation: colors 10s ease-in-out infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.info {
+    color: rgb(0, 255, 221);
+    text-shadow: 1px 1px 1px gold, 2px 3px 3px black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+    border: 20px;
+    margin: 50px;
+}
+
+.link {
+    color: gold;
+    font-size: 18px;
+}
+
+.link:hover {
+    color: black;
+}
+
+a {
+    color: black;
+    text-shadow: 1px 1px 1px gold;
+    font-weight: bold;
+    margin-top: 3px;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.botao:hover {
+    color: white;
+    text-shadow: 3px 3px 6px black;
+}
+
+ul {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 8px 0;
+    width: 720px;
+    margin: 0 auto;
+}
+
+.imginicial {
+    display: flex;
+    justify-content: right;
+}
+
+.img {
+    text-align: center;
+}
+
+.sobre {
+    color: white;
+    margin: 50px;
+}
+
+h3 {
+    font-size: 20px;
+    color: gold;
+    text-shadow: 2px 3px 2px black;
+}
+
+p {
+    margin: auto;
+    padding: 16px;
+    color: white;
+    font-size: 20px;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: gold;
+    text-shadow: 1px 2px 1px black;
+    text-align: center;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+.git {
+    color: gold;
+    text-shadow: 1px 1px 3px black;
+}
+
+.git:hover {
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
