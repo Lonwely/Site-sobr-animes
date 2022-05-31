@@ -1,11 +1,12 @@
 .menu {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: rgb(42, 2, 80);
-    background: linear-gradient(48deg, #000000 15%, #0859a5 60%, #810752 75%);
-    animation: colors 10s ease-in-out infinite;
+    background: linear-gradient(-48deg, #000000, #0859a5, #810752);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }
 
-@keyframes colors {
+@keyframes gradient {
     0% {
         background-position: 0% 50%;
     }
@@ -20,11 +21,12 @@
 .shounen {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: rgb(42, 2, 80);
-    background: linear-gradient(48deg, rgb(6, 0, 7) 15%, #770303 60%, #1808a5 75%);
-    animation: colors 10s ease-in-out infinite;
+    background: linear-gradient(-48deg, rgb(6, 0, 7), #770303, #1808a5);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }
 
-@keyframes colors {
+@keyframes gradient {
     0% {
         background-position: 0% 50%;
     }
@@ -39,11 +41,12 @@
 .shoujo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: rgb(42, 2, 80);
-    background: linear-gradient(48deg, #000000 18%, #a008a5 50%, #c00b0b 75%);
-    animation: colors 10s ease-in-out infinite;
+    background: linear-gradient(-48deg, #000000, #a008a5, #c00b0b);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }
 
-@keyframes colors {
+@keyframes gradient {
     0% {
         background-position: 0% 50%;
     }
@@ -58,11 +61,12 @@
 .seinen {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: rgb(42, 2, 80);
-    background: linear-gradient(48deg, #000000 15%, #0859a5 60%, #4d0257 75%);
-    animation: colors 10s ease-in-out infinite;
+    background: linear-gradient(-48deg, #000000, #0859a5, #4d0257);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }
 
-@keyframes colors {
+@keyframes gradient {
     0% {
         background-position: 0% 50%;
     }
